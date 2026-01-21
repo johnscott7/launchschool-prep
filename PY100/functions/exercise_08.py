@@ -1,0 +1,26 @@
+# Exercise 08
+# Use Python's control structures to create a function that takes an ISO 639-1 language code and returns a greeting in that language. 
+# You can take the examples below or add whatever languages you like.
+# https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+
+def greet(language_code):
+    match language_code:
+        case 'en':
+            return 'Hi!'
+        case 'fr':
+            return 'Salut!'
+        case 'pt':
+            return 'Ola!'
+        case 'de':
+            return 'Hallo!'
+        case 'sv':
+            return 'Hej!'
+        case 'af':
+            return 'Haai!'
+
+print(greet('en'))
+print(greet('fr'))
+print(greet('pt'))
+print(greet('de'))
+print(greet('sv'))
+print(greet('af'))

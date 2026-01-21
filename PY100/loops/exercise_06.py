@@ -1,0 +1,7 @@
+# Exercise 06
+# Your friends just showed up! Given the following list of names, use a for loop to greet each friend individually.
+
+friends = ['Sarah', 'John', 'Hannah', 'Dave']
+
+for x in friends:
+    print(f'Hello, {x}!')
